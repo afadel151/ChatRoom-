@@ -33,11 +33,11 @@ import LayoutPage from './LayoutPage.vue';
             <p>Select a chatroom to start messaging</p>
         </div>
         <div v-else>
-            <div v-for="chat in chats" class="w-full" :class="chat.user_id == ana_id ? 'chat-end' : 'chat-start'">
+            <!-- <div v-for="chat in chats" class="w-full" :class="chat.user_id == ana_id ? 'chat-end' : 'chat-start'">
                 <div>
                     <p>{{ chat.message }}</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </LayoutPage>
 </template>
